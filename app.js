@@ -154,6 +154,393 @@ const SAMPLE_NOTES = [
     fileUrl: "#",
     category: "Revision Notes",
   },
+[
+  {
+    id: 14,
+    subject: "Chemistry",
+    title: "Chemical Reactions and Equations",
+    topic: "Types and balancing",
+    date: "2026-03-31",
+    summary: "Represent chemical reactions using symbols; balance reactions accurately.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 15,
+    subject: "Chemistry",
+    title: "Acids, Bases and Salts",
+    topic: "Properties and examples",
+    date: "2026-03-31",
+    summary: "Properties, reactions, and indicators of acids, bases, salts.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 16,
+    subject: "Chemistry",
+    title: "Metals and Non-Metals",
+    topic: "Reactivity and uses",
+    date: "2026-03-31",
+    summary: "Differences, reactivity, and uses of metals versus non-metals.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 17,
+    subject: "Chemistry",
+    title: "Carbon and its Compounds",
+    topic: "Organic chemistry basics",
+    date: "2026-03-31",
+    summary: "Study of organic compounds: structures, types, and properties.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 18,
+    subject: "Biology",
+    title: "Life Processes",
+    topic: "Nutrition, respiration, excretion",
+    date: "2026-03-31",
+    summary: "Processes like nutrition, respiration, excretion, transport, and synthesis explained.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 19,
+    subject: "Biology",
+    title: "Control and Coordination",
+    topic: "Nervous and hormonal systems",
+    date: "2026-03-31",
+    summary: "Nervous and hormonal systems control and coordinate body activities.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 20,
+    subject: "Biology",
+    title: "How do Organisms Reproduce?",
+    topic: "Asexual and sexual reproduction",
+    date: "2026-03-31",
+    summary: "Sexual and asexual reproduction mechanisms in organisms explained.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 21,
+    subject: "Biology",
+    title: "Heredity and Evolution",
+    topic: "Genetics and adaptation",
+    date: "2026-03-31",
+    summary: "Genetics, inheritance, and evolution explain species variation and adaptation.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 22,
+    subject: "Physics",
+    title: "Light – Reflection and Refraction",
+    topic: "Laws and applications",
+    date: "2026-03-31",
+    summary: "Light behavior: reflection, refraction, laws, and applications summarized.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 23,
+    subject: "Physics",
+    title: "Human Eye and Colourful World",
+    topic: "Vision and dispersion",
+    date: "2026-03-31",
+    summary: "Eye structure, vision defects, dispersion, and rainbow phenomena explained.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 24,
+    subject: "Physics",
+    title: "Electricity",
+    topic: "Current, voltage, resistance",
+    date: "2026-03-31",
+    summary: "Current, voltage, resistance, Ohm’s law, and circuits described briefly.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 25,
+    subject: "Physics",
+    title: "Magnetic Effects of Electric Current",
+    topic: "Electromagnetism basics",
+    date: "2026-03-31",
+    summary: "Electromagnetism, magnetic field, and forces due to current explained.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 26,
+    subject: "Physics",
+    title: "Our Environment",
+    topic: "Pollution and conservation",
+    date: "2026-03-31",
+    summary: "Environmental components, pollution, conservation, and sustainability practices summarized.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  }
+  [
+  {
+    id: 27,
+    subject: "History",
+    title: "The Rise of Nationalism in Europe",
+    topic: "European revolutions and nation-states",
+    date: "2026-03-31",
+    summary: "Emergence of nationalism and revolutions shaping modern European countries.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 28,
+    subject: "History",
+    title: "Nationalism in India",
+    topic: "Indian freedom struggle",
+    date: "2026-03-31",
+    summary: "Growth of Indian nationalism and freedom movement against British rule.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 29,
+    subject: "History",
+    title: "The Making of a Global World",
+    topic: "Global trade and exploration",
+    date: "2026-03-31",
+    summary: "Expansion of trade, colonization, and global cultural interactions explained.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 30,
+    subject: "History",
+    title: "The Age of Industrialisation",
+    topic: "Industrial revolution",
+    date: "2026-03-31",
+    summary: "Industrialization transformed economies, societies, and urbanization worldwide.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 31,
+    subject: "History",
+    title: "Print Culture and The Modern World",
+    topic: "Media and literature",
+    date: "2026-03-31",
+    summary: "Growth of print media and literature shaped modern world perspectives.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 32,
+    subject: "Geography",
+    title: "Resources and Development",
+    topic: "Natural and human resources",
+    date: "2026-03-31",
+    summary: "Resources management and sustainable development important for human welfare.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 33,
+    subject: "Geography",
+    title: "Forest and Wildlife Resources",
+    topic: "Conservation and biodiversity",
+    date: "2026-03-31",
+    summary: "Forests and wildlife need protection for ecological balance and biodiversity.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 34,
+    subject: "Geography",
+    title: "Water Resources",
+    topic: "Rivers, lakes, and water management",
+    date: "2026-03-31",
+    summary: "Proper use and management of water essential for development.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 35,
+    subject: "Geography",
+    title: "Agriculture",
+    topic: "Farming practices and crops",
+    date: "2026-03-31",
+    summary: "Agricultural practices, crop types, and challenges shaping economy discussed.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 36,
+    subject: "Geography",
+    title: "Minerals and Energy Resources",
+    topic: "Mining and energy production",
+    date: "2026-03-31",
+    summary: "Minerals and energy resources critical for industry and development.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 37,
+    subject: "Geography",
+    title: "Manufacturing Industries",
+    topic: "Industrial production",
+    date: "2026-03-31",
+    summary: "Industries transform raw materials into goods; boost economy and jobs.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 38,
+    subject: "Geography",
+    title: "Lifelines of National Economy",
+    topic: "Transport, communication, and trade",
+    date: "2026-03-31",
+    summary: "Roads, railways, ports, and networks connect and strengthen economy.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 39,
+    subject: "Civics",
+    title: "Power Sharing",
+    topic: "Government structures and democracy",
+    date: "2026-03-31",
+    summary: "Distribution of political power prevents conflicts and maintains democracy.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 40,
+    subject: "Civics",
+    title: "Federalism",
+    topic: "Division of powers",
+    date: "2026-03-31",
+    summary: "Federal system divides powers between central and state governments.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 41,
+    subject: "Civics",
+    title: "Gender, Religion and Caste",
+    topic: "Social divisions and equality",
+    date: "2026-03-31",
+    summary: "Gender, religion, caste influence society; equality and rights important.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 42,
+    subject: "Civics",
+    title: "Political Parties",
+    topic: "Party system and elections",
+    date: "2026-03-31",
+    summary: "Political parties organize elections and represent diverse citizen interests.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 43,
+    subject: "Civics",
+    title: "Outcomes of Democracy",
+    topic: "Democratic benefits and challenges",
+    date: "2026-03-31",
+    summary: "Democracy ensures rights, participation, accountability; challenges include corruption.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 44,
+    subject: "Economics",
+    title: "Development",
+    topic: "Economic growth and progress",
+    date: "2026-03-31",
+    summary: "Development improves living standards, reduces poverty, and boosts economy.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 45,
+    subject: "Economics",
+    title: "Sectors of the Indian Economy",
+    topic: "Primary, secondary, tertiary",
+    date: "2026-03-31",
+    summary: "Primary, secondary, tertiary sectors contribute differently to national economy.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 46,
+    subject: "Economics",
+    title: "Money and Credit",
+    topic: "Banking and finance",
+    date: "2026-03-31",
+    summary: "Money, banking, and credit systems support trade and economic growth.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 47,
+    subject: "Economics",
+    title: "Globalisation and the Indian Economy",
+    topic: "Trade and markets",
+    date: "2026-03-31",
+    summary: "Globalization affects trade, investment, and Indian economic policies.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  },
+  {
+    id: 48,
+    subject: "Economics",
+    title: "Consumer Rights",
+    topic: "Protection and awareness",
+    date: "2026-03-31",
+    summary: "Consumer rights protect buyers and ensure fair trade practices.",
+    type: "Text",
+    fileUrl: "#",
+    category: "Class Notes"
+  }
 ];
 
 const NAV_ITEMS = ["Home", "Subjects", "About"];
