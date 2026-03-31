@@ -20,7 +20,7 @@ const SAMPLE_NOTES = [
     date: "2026-03-31",
     summary: "Represent chemical reactions using symbols; balance reactions accurately.",
     type: "Text",
-    fileUrl: "#",
+    fileUrl: "https://drive.google.com/file/d/1dfwqDKCoUfzRdVLraNxef6MoFNphTTB9/view?usp=sharing",
     category: "Class Notes"
   },
   {
