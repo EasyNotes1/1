@@ -154,7 +154,6 @@ const SAMPLE_NOTES = [
     fileUrl: "#",
     category: "Revision Notes",
   },
-[
   {
     id: 14,
     subject: "Chemistry",
@@ -298,7 +297,7 @@ const SAMPLE_NOTES = [
     fileUrl: "#",
     category: "Class Notes"
   }
-  [
+  ];
   {
     id: 27,
     subject: "History",
