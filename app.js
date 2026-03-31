@@ -502,7 +502,7 @@ function renderMain() {
   if (state.activePage !== "About" && state.activePage !== "Subjects") {
     main.innerHTML = `${renderHomePage()}`;
   } else if (state.activePage === "Subjects") {
-    main.ierHTML = `${renderSubjectsPage()}`;
+    main.innerHTML = `${renderSubjectsPage()}`;
   } else if (state.activePage === "About") {
     main.innerHTML = `${renderAboutPage()}`;
   }
