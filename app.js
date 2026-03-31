@@ -11,151 +11,9 @@ const SUBJECTS = [
 ];
 
 const SAMPLE_NOTES = [
+
   {
     id: 1,
-    subject: "Physics",
-    title: "Light - Reflection Basics",
-    topic: "Chapter: Light",
-    date: "2026-03-31",
-    summary: "Key laws of reflection, types of mirrors, and simple ray diagrams for quick revision.",
-    type: "PDF",
-    fileUrl: "https://drive.google.com/file/d/1Jhtuy8V0eZNWX0-H5eiahRLAi9Ymhrn5/view?usp=sharing",
-    category: "Today's Notes",
-  },
-  {
-    id: 2,
-    subject: "Chemistry",
-    title: "Acids, Bases and Salts",
-    topic: "Properties and examples",
-    date: "2026-03-30",
-    summary: "Short notes on indicators, pH, neutralization, and common everyday examples.",
-    type: "Image",
-    fileUrl: "#",
-    category: "Revision Notes",
-  },
-  {
-    id: 3,
-    subject: "Biology",
-    title: "Life Processes Summary",
-    topic: "Nutrition and respiration",
-    date: "2026-03-30",
-    summary: "A compact explanation of how living organisms take in food, breathe, and transport materials.",
-    type: "PDF",
-    fileUrl: "#",
-    category: "Today's Notes",
-  },
-  {
-    id: 4,
-    subject: "History",
-    title: "Nationalism in India",
-    topic: "Key events and movements",
-    date: "2026-03-29",
-    summary: "Important dates, leaders, and causes behind the freedom movement in an easy format.",
-    type: "PDF",
-    fileUrl: "#",
-    category: "Important Questions",
-  },
-  {
-    id: 5,
-    subject: "Geography",
-    title: "Resources and Development",
-    topic: "Types of resources",
-    date: "2026-03-29",
-    summary: "Definitions, classification of resources, and a quick comparison chart for revision.",
-    type: "Image",
-    fileUrl: "#",
-    category: "Revision Notes",
-  },
-  {
-    id: 6,
-    subject: "English",
-    title: "The Proposal - Summary",
-    topic: "Drama lesson overview",
-    date: "2026-03-28",
-    summary: "Characters, scene flow, and the central conflict explained in short bullet points.",
-    type: "PDF",
-    fileUrl: "#",
-    category: "Today's Notes",
-  },
-  {
-    id: 7,
-    subject: "Hindi",
-    title: "सूरदास के पद",
-    topic: "कविता का भावार्थ",
-    date: "2026-03-28",
-    summary: "कविता के मुख्य भाव, कठिन शब्द, और परीक्षा के लिए याद रखने योग्य बातें.",
-    type: "PDF",
-    fileUrl: "#",
-    category: "Important Questions",
-  },
-  {
-    id: 8,
-    subject: "Physics",
-    title: "Numerical Practice Set 1",
-    topic: "Light chapter numericals",
-    date: "2026-03-27",
-    summary: "Practice questions for mirror formula, ray diagrams, and image formation.",
-    type: "PDF",
-    fileUrl: "#",
-    category: "Important Questions",
-  },
-  {
-    id: 9,
-    subject: "Physics",
-    title: "Electricity",
-    topic: "Class notes",
-    date: "2026-03-27",
-    summary: "not yet.",
-    type: "PDF",
-    fileUrl: "https://drive.google.com/file/d/1Jhtuy8V0eZNWX0-H5eiahRLAi9Ymhrn5/view?usp=sharing",
-    category: "Important Questions",
-  },
-  {
-    id: 10,
-    subject: "Economics",
-    title: "Fundamental Concepts",
-    topic: "Introduction to Economics",
-    date: "2026-03-31",
-    summary: "Basic economic concepts, scarcity, opportunity cost, and factors of production explained clearly.",
-    type: "PDF",
-    fileUrl: "#",
-    category: "Today's Notes",
-  },
-  {
-    id: 11,
-    subject: "Economics",
-    title: "Supply and Demand",
-    topic: "Market Economics",
-    date: "2026-03-30",
-    summary: "Understanding market equilibrium, price mechanisms, and consumer-producer behavior.",
-    type: "PDF",
-    fileUrl: "#",
-    category: "Important Questions",
-  },
-  {
-    id: 12,
-    subject: "Civics",
-    title: "Chapter1",
-    topic: "Fundamental Rights and Duties",
-    date: "2026-03-31",
-    summary: "Key articles, fundamental rights, and constitutional framework of India simplified for exam preparation.",
-    type: "PDF",
-    fileUrl: "#",
-    category: "Today's Notes",
-  },
-  {
-    id: 13,
-    subject: "Civics",
-    title: "Democratic Process",
-    topic: "Elections and Governance",
-    date: "2026-03-29",
-    summary: "Electoral system, voting rights, political parties, and the process of governance in India.",
-    type: "PDF",
-    fileUrl: "#",
-    category: "Revision Notes",
-  },
-  {
-    id: 14,
     subject: "Chemistry",
     title: "Chemical Reactions and Equations",
     topic: "Types and balancing",
@@ -166,7 +24,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 15,
+    id: 2,
     subject: "Chemistry",
     title: "Acids, Bases and Salts",
     topic: "Properties and examples",
@@ -177,7 +35,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 16,
+    id: 3,
     subject: "Chemistry",
     title: "Metals and Non-Metals",
     topic: "Reactivity and uses",
@@ -188,7 +46,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 17,
+    id: 4,
     subject: "Chemistry",
     title: "Carbon and its Compounds",
     topic: "Organic chemistry basics",
@@ -199,7 +57,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 18,
+    id: 5,
     subject: "Biology",
     title: "Life Processes",
     topic: "Nutrition, respiration, excretion",
@@ -210,7 +68,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 19,
+    id: 6,
     subject: "Biology",
     title: "Control and Coordination",
     topic: "Nervous and hormonal systems",
@@ -221,7 +79,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 20,
+    id: 7,
     subject: "Biology",
     title: "How do Organisms Reproduce?",
     topic: "Asexual and sexual reproduction",
@@ -232,7 +90,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 21,
+    id: 8,
     subject: "Biology",
     title: "Heredity and Evolution",
     topic: "Genetics and adaptation",
@@ -243,7 +101,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 22,
+    id: 9,
     subject: "Physics",
     title: "Light – Reflection and Refraction",
     topic: "Laws and applications",
@@ -254,7 +112,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 23,
+    id: 10,
     subject: "Physics",
     title: "Human Eye and Colourful World",
     topic: "Vision and dispersion",
@@ -265,7 +123,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 24,
+    id: 11,
     subject: "Physics",
     title: "Electricity",
     topic: "Current, voltage, resistance",
@@ -276,7 +134,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 25,
+    id: 12,
     subject: "Physics",
     title: "Magnetic Effects of Electric Current",
     topic: "Electromagnetism basics",
@@ -287,8 +145,8 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 26,
-    subject: "Physics",
+    id: 13,
+    subject: "Biology",
     title: "Our Environment",
     topic: "Pollution and conservation",
     date: "2026-03-31",
@@ -298,7 +156,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 27,
+    id: 14,
     subject: "History",
     title: "The Rise of Nationalism in Europe",
     topic: "European revolutions and nation-states",
@@ -309,7 +167,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 28,
+    id: 15,
     subject: "History",
     title: "Nationalism in India",
     topic: "Indian freedom struggle",
@@ -320,7 +178,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 29,
+    id: 16,
     subject: "History",
     title: "The Making of a Global World",
     topic: "Global trade and exploration",
@@ -331,7 +189,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 30,
+    id: 17,
     subject: "History",
     title: "The Age of Industrialisation",
     topic: "Industrial revolution",
@@ -342,7 +200,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 31,
+    id: 18,
     subject: "History",
     title: "Print Culture and The Modern World",
     topic: "Media and literature",
@@ -353,7 +211,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 32,
+    id: 19,
     subject: "Geography",
     title: "Resources and Development",
     topic: "Natural and human resources",
@@ -364,7 +222,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 33,
+    id: 20,
     subject: "Geography",
     title: "Forest and Wildlife Resources",
     topic: "Conservation and biodiversity",
@@ -375,7 +233,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 34,
+    id: 21,
     subject: "Geography",
     title: "Water Resources",
     topic: "Rivers, lakes, and water management",
@@ -386,7 +244,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 35,
+    id: 22,
     subject: "Geography",
     title: "Agriculture",
     topic: "Farming practices and crops",
@@ -397,7 +255,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 36,
+    id: 23,
     subject: "Geography",
     title: "Minerals and Energy Resources",
     topic: "Mining and energy production",
@@ -408,7 +266,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 37,
+    id: 24,
     subject: "Geography",
     title: "Manufacturing Industries",
     topic: "Industrial production",
@@ -419,7 +277,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 38,
+    id: 25,
     subject: "Geography",
     title: "Lifelines of National Economy",
     topic: "Transport, communication, and trade",
@@ -430,7 +288,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 39,
+    id: 26,
     subject: "Civics",
     title: "Power Sharing",
     topic: "Government structures and democracy",
@@ -441,7 +299,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 40,
+    id: 27,
     subject: "Civics",
     title: "Federalism",
     topic: "Division of powers",
@@ -452,7 +310,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 41,
+    id: 28,
     subject: "Civics",
     title: "Gender, Religion and Caste",
     topic: "Social divisions and equality",
@@ -463,7 +321,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 42,
+    id: 29,
     subject: "Civics",
     title: "Political Parties",
     topic: "Party system and elections",
@@ -474,7 +332,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 43,
+    id: 30,
     subject: "Civics",
     title: "Outcomes of Democracy",
     topic: "Democratic benefits and challenges",
@@ -485,7 +343,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 44,
+    id: 31,
     subject: "Economics",
     title: "Development",
     topic: "Economic growth and progress",
@@ -496,7 +354,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 45,
+    id: 32,
     subject: "Economics",
     title: "Sectors of the Indian Economy",
     topic: "Primary, secondary, tertiary",
@@ -507,7 +365,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 46,
+    id: 33,
     subject: "Economics",
     title: "Money and Credit",
     topic: "Banking and finance",
@@ -518,7 +376,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 47,
+    id: 34,
     subject: "Economics",
     title: "Globalisation and the Indian Economy",
     topic: "Trade and markets",
@@ -529,7 +387,7 @@ const SAMPLE_NOTES = [
     category: "Class Notes"
   },
   {
-    id: 48,
+    id: 35,
     subject: "Economics",
     title: "Consumer Rights",
     topic: "Protection and awareness",
