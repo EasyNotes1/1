@@ -297,7 +297,6 @@ const SAMPLE_NOTES = [
     fileUrl: "#",
     category: "Class Notes"
   },
-];
   {
     id: 27,
     subject: "History",
