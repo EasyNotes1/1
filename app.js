@@ -135,7 +135,7 @@ const SAMPLE_NOTES = [
   {
     id: 12,
     subject: "Civics",
-    title: "Indian Constitution",
+    title: "Chapter1",
     topic: "Fundamental Rights and Duties",
     date: "2026-03-31",
     summary: "Key articles, fundamental rights, and constitutional framework of India simplified for exam preparation.",
